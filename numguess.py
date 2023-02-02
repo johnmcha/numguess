@@ -7,7 +7,7 @@ print(answer)
 
 user_name = input('hello what is your name?')
 guess = input(f'hi,{user_name}. guess the number (1-100): ')
-
+guess = int(guess)
 # print to check
 print(user_name, guess)
 
